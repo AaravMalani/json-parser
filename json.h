@@ -14,7 +14,7 @@ typedef struct JSONMapElement{
 typedef struct JSONElement {
 	JSONType type;
 	int length; // Not necessary this will be set
-	void* data;
+	void data;
 };
 
 /* { "abc" : [1, 2, "a"], "123": {"c": "b", "123": true}}
